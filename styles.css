@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300;700;800&family=Lilita+One&family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins';
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    padding: 20px 50px;
+    /* background-color: #3ebea5; */
+    background-color: #0c2c6b;
+    color: white;
+}
+
+header h1{
+    font-size: 1.8rem;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 0 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover{
+    color: #f4f4f4;
+    border-bottom: 3px solid #f4f4f4; 
+}
+
+nav ul li .active{
+    color: #f4f4f4;
+    border-bottom: 3px solid #f4f4f4; 
+}
+
+main{
+    padding: 40px 120px;
+}
+
+/* index */
+.hero-section{
+    position: relative;
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+
+}
+
+.hero-section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    filter: brightness(30%); 
+}
+
+.hero-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.hero-text h1{
+    font-size: 3rem; 
+    margin-bottom: 10px;
+}
+
+.hero-text p{
+    font-size: 1.2rem;
+}
+
+/* strength training */
+.intro{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.intro h2{
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.intro p{
+    font-size: 1.2rem;
+    color: #666;
+    text-align: justify;
+}
+
+.examples{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.exercise{
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.exercise:hover{
+    transform: translateY(-5px);
+}
+
+.exercise img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.description{
+    padding: 15px;
+}
+
+.description h3{
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.description p{
+    font-size: 1rem;
+    color: #666;
+    text-align: justify;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+    background-color: #0c2c6b;
+    color: white;
+}
