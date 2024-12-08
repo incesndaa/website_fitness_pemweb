@@ -160,3 +160,74 @@ footer{
     background-color: #0c2c6b;
     color: white;
 }
+
+
+
+
+
+
+
+.intro{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.intro h2{
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.intro p{
+    font-size: 1.2rem;
+    color: #666;
+    text-align: justify;
+}
+
+
+.cardio-examples {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+.cardio-item {
+    background: #f7f9fc;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.cardio-item:hover {
+    transform: scale(1.05);
+}
+
+.cardio-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cardio-content {
+    padding: 15px;
+}
+
+.cardio-content h3 {
+    margin: 0 0 10px;
+    color: #0c2c6b;
+    font-size: 1.25rem;
+}
+
+.cardio-content p {
+    margin: 0;
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
