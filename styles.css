@@ -162,29 +162,7 @@ footer{
 }
 
 
-
-
-
-
-
-.intro{
-    margin-bottom: 40px;
-    text-align: center;
-}
-
-.intro h2{
-    font-size: 2rem;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.intro p{
-    font-size: 1.2rem;
-    color: #666;
-    text-align: justify;
-}
-
-
+/* cardio */
 .cardio-examples {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -230,4 +208,5 @@ footer{
     font-size: 1rem;
     line-height: 1.5;
 }
+
 
