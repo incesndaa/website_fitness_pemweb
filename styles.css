@@ -99,7 +99,7 @@ main{
 }
 
 .intro h2{
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #333;
     margin-bottom: 10px;
 }
@@ -151,6 +151,85 @@ main{
     color: #666;
     text-align: justify;
 }
+
+/* healty food */
+.healthy-food {
+    padding: 0 50px;
+    color: #333
+}
+
+.diet{
+    margin: 5em 0;
+}
+
+.food{
+    display: flex;
+    padding: 20px;
+}
+
+.food img{
+    width: 15em;
+}
+
+.food-desc{
+    padding: 20px;
+}
+
+.hf {
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.hf h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.hf p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+/* 
+.food-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.food-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.food-card:hover {
+    transform: scale(1.05);
+}
+
+.food-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 1rem;
+    text-align: justify;
+    color: #555;
+} */
+
 
 footer{
     text-align: center;
